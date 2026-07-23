@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#EZ-3444] BAU-Enhancement-Financial Lines-Marsh Panel Coding Worksheet</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-zurichna.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [EZ-3444]&nbsp;<a href="https://jira-zurichna.atlassian.net/browse/EZ-3444">BAU-Enhancement-Financial Lines-Marsh Panel Coding Worksheet</a>
+            <span class="subText">
+               Created: 07/02/26                   &nbsp;Updated: 07/17/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Ready for QA</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-zurichna.atlassian.net/secure/BrowseProject.jspa?id=12183">eZdocs</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                                        <a title="Enhancement - Assign this to all Enhancements"
+                href="https://jira-zurichna.atlassian.net/issues/?jql=project%3D12183%20AND%20%22component%22%3D12980%20ORDER%20BY%20priority%20ASC"
+            >Enhancement</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="BAU - Sep 2026 - BAU release for Sep 2026"
+                href="https://jira-zurichna.atlassian.net/issues/?jql=project%3D12183%20AND%20%22fixVersion%22%3D20961%20ORDER%20BY%20priority%20ASC"
+            >BAU - Sep 2026</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                TBD
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3"
+                id="word_reporter_712020:c5672abc-47de-4d3b-b75c-674d899548f3"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3">
+                    neha.dhilor@zurich.com
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:63e6064d-2dd2-4c88-824e-6528ca9c3527"
+                id="word_assignee_712020:63e6064d-2dd2-4c88-824e-6528ca9c3527"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A63e6064d-2dd2-4c88-824e-6528ca9c3527">
+                    Sujitha Sujitha (Contractor)
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-13652664-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            2, BAU, Enhancement, FinancialLines                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260710-125941.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260710-125924.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260710-125932.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3922">EZ-3922</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3922">Perform Impact Analysis</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Closed
+                    </td>
+                    <td>
+                                                     Rashmi Banapura  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3923">EZ-3923</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3923">Code Fix and Unit Testing </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Closed
+                    </td>
+                    <td>
+                                                     Rashmi Banapura  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3924">EZ-3924</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3924">Review-Unit Test results and Promote ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Divya Pydimarla  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3925">EZ-3925</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3925">QA Validation-Test plan, Test executi...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3926">EZ-3926</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3926">QA Review and Signoff</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-13652664-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>QA PD&#39;s:</b></td>
+                <td id="customfield_12226-13652664-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Mendix PD&#39;s:</b></td>
+                <td id="customfield_12229-13652664-value" class="value" bgcolor="#ffffff" width="80%">    1.5
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>This story is for implementation of Marsh Panel Coding Worksheet.</p>
+
+
+
+<p>Zurich Limit is the max of 3 value in the item 3 (1)</p>
+
+<p> </p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1525937" alt="image-20260710-125924.png" width="313" style="border: 0px solid black" /></span></p>
+
+<p>Aggregate is Item 3. (2)</p>
+
+<p> </p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1525938" alt="image-20260710-125932.png" width="313" style="border: 0px solid black" /></span></p>
+
+<p> SIR or retention and its found in the item 4</p>
+
+<p>The value is the max of the highlighted only ( for coding we do not brake down the EPL retention for USA and and the Territory values)</p>
+
+<p> </p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1525936" alt="image-20260710-125941.png" width="313" style="border: 0px solid black" /></span></p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-1747619"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="638ed40c3c26ca7fa0d6b003"
+                id="word_commented_638ed40c3c26ca7fa0d6b003"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003">
+                    Rashmi Banapura
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/10/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1747619"><td bgcolor="#ffffff">
+            <p>Can we get requirements for below fields</p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Zurich's Limit </td>
+</tr>
+<tr>
+<td class='confluenceTd'>Aggregate </td>
+</tr>
+<tr>
+<td class='confluenceTd'>Deductible/SIR?</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Deductible/SIR Amount </td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3" class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3" data-account-id="712020:c5672abc-47de-4d3b-b75c-674d899548f3" accountid="712020:c5672abc-47de-4d3b-b75c-674d899548f3" rel="noreferrer">neha.dhilor@zurich.com</a> </p>
+        </td></tr>
+                <tr id="comment-header-1754395"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="638ed40c3c26ca7fa0d6b003"
+                id="word_commented_638ed40c3c26ca7fa0d6b003"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003">
+                    Rashmi Banapura
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/17/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1754395"><td bgcolor="#ffffff">
+            <p>Deployed to BAU</p>
+
+<p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A63e6064d-2dd2-4c88-824e-6528ca9c3527" class="user-hover" rel="712020:63e6064d-2dd2-4c88-824e-6528ca9c3527" data-account-id="712020:63e6064d-2dd2-4c88-824e-6528ca9c3527" accountid="712020:63e6064d-2dd2-4c88-824e-6528ca9c3527" rel="noreferrer">Sujitha Sujitha (Contractor)</a> <a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A68a1ec9a-f3ab-4a06-84e8-9988242356b8" class="user-hover" rel="712020:68a1ec9a-f3ab-4a06-84e8-9988242356b8" data-account-id="712020:68a1ec9a-f3ab-4a06-84e8-9988242356b8" accountid="712020:68a1ec9a-f3ab-4a06-84e8-9988242356b8" rel="noreferrer">swathi.pothakamuri</a> </p>
+        </td></tr>
+            </table>
+Generated at Thu Jul 23 13:16:37 UTC 2026 by Sujitha Sujitha (Contractor) using Jira 1001.0.0-SNAPSHOT#100292-rev:7ae4cd09584861651df5693e05c690a01094461f.
+
+</body>
+</html>
