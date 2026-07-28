@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#EZ-3159] BAU-Enhancement-PBR- Demo feedback from PBR Upload removal JIRA</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-zurichna.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [EZ-3159]&nbsp;<a href="https://jira-zurichna.atlassian.net/browse/EZ-3159">BAU-Enhancement-PBR- Demo feedback from PBR Upload removal JIRA</a>
+            <span class="subText">
+               Created: 06/22/26                   &nbsp;Updated: 07/20/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Ready for QA</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-zurichna.atlassian.net/secure/BrowseProject.jspa?id=12183">eZdocs</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                                        <a title="Enhancement - Assign this to all Enhancements"
+                href="https://jira-zurichna.atlassian.net/issues/?jql=project%3D12183%20AND%20%22component%22%3D12980%20ORDER%20BY%20priority%20ASC"
+            >Enhancement</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="BAU - Sep 2026 - BAU release for Sep 2026"
+                href="https://jira-zurichna.atlassian.net/issues/?jql=project%3D12183%20AND%20%22fixVersion%22%3D20961%20ORDER%20BY%20priority%20ASC"
+            >BAU - Sep 2026</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                TBD
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3"
+                id="word_reporter_712020:c5672abc-47de-4d3b-b75c-674d899548f3"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3">
+                    neha.dhilor@zurich.com
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:63e6064d-2dd2-4c88-824e-6528ca9c3527"
+                id="word_assignee_712020:63e6064d-2dd2-4c88-824e-6528ca9c3527"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A63e6064d-2dd2-4c88-824e-6528ca9c3527">
+                    Sujitha Sujitha (Contractor)
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-13628634-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            2, BAU, Enhancement, PBR                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260622-162410.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260622-162403.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260622-162419.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260622-162429.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260622-162355.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    FW_ eZdocs - BAU UAT for July 2026 Release - EZ 294 issues.msg &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260630-153716.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260630-145753.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260701-064650.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260709-144455.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260709-144424.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260710-171151.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260710-171218.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260713-064620.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260717-144347.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260717-144859.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260717-145031.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-zurichna.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260720-070436.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3467">EZ-3467</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3467">Perform Impact Analysis</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Closed
+                    </td>
+                    <td>
+                                                     Rashmi Banapura  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3468">EZ-3468</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3468">Code Fix and Unit Testing</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Closed
+                    </td>
+                    <td>
+                                                     Rashmi Banapura  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3469">EZ-3469</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3469">Review-Unit Test results and Promote ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Divya Pydimarla  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3470">EZ-3470</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3470">QA Validation-Test plan, Test executi...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3471">EZ-3471</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-zurichna.atlassian.net/browse/EZ-3471">QA Review and Signoff</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-13628634-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Category:</b></td>
+                <td id="customfield_10510-13628634-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Reason:</b></td>
+                <td id="customfield_10606-13628634-value" class="value" bgcolor="#ffffff" width="80%">    New Requirement
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Line of Business:</b></td>
+                <td id="customfield_10597-13628634-value" class="value" bgcolor="#ffffff" width="80%">    PBR
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Mendix PD&#39;s:</b></td>
+                <td id="customfield_12229-13628634-value" class="value" bgcolor="#ffffff" width="80%">    5
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>These obersvatiosn were shared by Christine after testing PBR rater removal  JIRA testing. PBR rater removal was pulled out of July release. These observations must be fixed with <a href="https://jira-zurichna.atlassian.net/browse/EZ-294" title="smart-link" class="external-link" rel="nofollow noreferrer">https://jira-zurichna.atlassian.net/browse/EZ-294</a> </p>
+
+<p>Issue:</p>
+
+<ol>
+	<li><b>Named Insured:</b>  The below yellow box items must be manually input on ezdocs now, but none of these feed over to the quote/policy.  It seems the Named Insured pull over from UWD?  But these items pulled from UWD do not show anywhere in ezdocs, other than on the quote/policy:.  The Named Insured ideally should pull from UWD.</li>
+</ol>
+
+
+
+
+<p> </p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1509850" alt="image-20260622-162355.png" width="876" style="border: 0px solid black" /></span></p>
+
+<p> </p>
+
+<ol>
+	<li><b>Flood &amp; EQ Aggregate Limits of Insurance.</b>  Currently there is a drop down in this section that allow the UW to select either a TERM or ANNUAL Aggregate to apply for Flood and Earthquake.  This drop down is missing when no BRPT sheet is uploaded.  We need a drop down to select TERM or Annual Agg limits for these coverages:</li>
+</ol>
+
+
+<p> </p>
+
+<p> </p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1509847" alt="image-20260622-162403.png" width="874" style="border: 0px solid black" /></span></p>
+
+
+
+<p> </p>
+
+<p> </p>
+
+<ol>
+	<li><b>Coverage Extensions.</b> </li>
+</ol>
+
+
+<p>Currently, if the UW puts $0 for a limit under here for any of the coverage extension types, or does not enter a limit for each coverage extension, the extension shows on the quote but with no limit.  Hence, it looks like coverage is just automatically included.  Each coverage type should require a numeric number be entered under the Limit field.  And, if $0 is entered as the limit, then the quote/policy should show ‘Not Insured’ when $0 is entered for the limit.</p>
+
+
+
+<p> </p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1509846" alt="image-20260622-162410.png" width="827" style="border: 0px solid black" /></span></p>
+
+<p> </p>
+
+<ol>
+	<li><b>Schedule of Rates – Builders Risk Property – Coverage Extensions:</b>  If this is selected, the UW can enter in a flat premium, which is great.  However, on the quote/policy, ‘Rating Base’ and ‘Monthly Rate per $100’ show as “Not Insured”.  Rather if the UW selects this coverage and puts in a flat premium, ‘Rating Base’ and ‘Monthly Rate per $100’ should just show as empty – as in nothing should show under them on the quote/policy.</li>
+</ol>
+
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1509848" alt="image-20260622-162419.png" width="925" style="border: 0px solid black" /></span></p>
+
+
+
+<p> </p>
+
+<p> </p>
+
+<ol>
+	<li><b>Delay in Completion Coverage Endst Form – ZC 6538 – Waiting period deductibles</b>.        
+	<ol>
+		<li>a.) If no value is entered for the number of days waiting, or if 0 is entered, then the quote/policy should show ‘Not Insured’ for these items. </li>
+		<li>b.) Also, the Delay Aggregate Limit of Insurance should sum up the limit entered for Business Interruption, Rental Value and Soft Costs; that limit should show as the Agg Limit in ezdocs and on the quote quote/policy for the Delay Aggregate Limit of Insurance</li>
+	</ol>
+	</li>
+</ol>
+
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1509849" alt="image-20260622-162429.png" width="765" style="border: 0px solid black" /></span></p>
+
+
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-1737961"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="638ed40c3c26ca7fa0d6b003"
+                id="word_commented_638ed40c3c26ca7fa0d6b003"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003">
+                    Rashmi Banapura
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">06/30/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1737961"><td bgcolor="#ffffff">
+            <p>Hi <a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17" class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" data-account-id="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" accountid="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" rel="noreferrer">Christine Clowser</a> , please see my below queries and let me know what to consider?</p>
+
+<ol>
+	<li>Under <b>coverage extensions</b>, all limit fields to be mandatory or optional? If optional then what to print when it’s empty?</li>
+</ol>
+
+
+<p>2. Is below requirement applying only to Coverage extensions?</p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1517270" alt="image-20260630-145753.png" width="660" style="border: 0px solid black" /></span></p>
+
+<p>3, Do we need to consider all below fields for above <b>a</b> point in number 5?</p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1517269" alt="image-20260630-153716.png" width="645" style="border: 0px solid black" /></span></p>
+
+<p>FYI: <a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3" class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3" data-account-id="712020:c5672abc-47de-4d3b-b75c-674d899548f3" accountid="712020:c5672abc-47de-4d3b-b75c-674d899548f3" rel="noreferrer">neha.dhilor@zurich.com</a> </p>
+        </td></tr>
+                <tr id="comment-header-1738176"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                id="word_commented_712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17">
+                    Christine Clowser
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">06/30/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1738176"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003" class="user-hover" rel="638ed40c3c26ca7fa0d6b003" data-account-id="638ed40c3c26ca7fa0d6b003" accountid="638ed40c3c26ca7fa0d6b003" rel="noreferrer">Rashmi Banapura</a> <a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3" class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3" data-account-id="712020:c5672abc-47de-4d3b-b75c-674d899548f3" accountid="712020:c5672abc-47de-4d3b-b75c-674d899548f3" rel="noreferrer">neha.dhilor@zurich.com</a> </p>
+
+<p>1.) Under <b>coverage extensions</b>, all limit fields to be mandatory or optional? If optional then what to print when it’s empty?  <b>All fields should be mandatory.  If a limit is left empty or entered as $0, the quote should show as “Not Covered” for the limit on the quo.</b></p>
+
+<p>2.) Yes, applies to all Coverage Extensions.</p>
+
+<p>3.) I'm not sure what the ask is on this one?  What is number 5? what is <b>a</b>?</p>
+        </td></tr>
+                <tr id="comment-header-1738822"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="638ed40c3c26ca7fa0d6b003"
+                id="word_commented_638ed40c3c26ca7fa0d6b003"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003">
+                    Rashmi Banapura
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/01/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1738822"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17" class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" data-account-id="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" accountid="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" rel="noreferrer">Christine Clowser</a> </p>
+
+<p>This is the third query. I mean where do we have number of days waiting on 6538 form?</p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1517997" alt="image-20260701-064650.png" width="599" style="border: 0px solid black" /></span></p>
+        </td></tr>
+                <tr id="comment-header-1746693"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                id="word_commented_712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17">
+                    Christine Clowser
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/09/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1746693"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003" class="user-hover" rel="638ed40c3c26ca7fa0d6b003" data-account-id="638ed40c3c26ca7fa0d6b003" accountid="638ed40c3c26ca7fa0d6b003" rel="noreferrer">Rashmi Banapura</a> The number of waiting days is within Form ZC 6538 itself.</p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1525035" alt="image-20260709-144424.png" width="1066" style="border: 0px solid black" /></span></p>
+
+
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1525034" alt="image-20260709-144455.png" width="1066" style="border: 0px solid black" /></span></p>
+        </td></tr>
+                <tr id="comment-header-1747611"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="638ed40c3c26ca7fa0d6b003"
+                id="word_commented_638ed40c3c26ca7fa0d6b003"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003">
+                    Rashmi Banapura
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/10/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1747611"><td bgcolor="#ffffff">
+            <p>Deployed to BAU</p>
+
+<p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A63e6064d-2dd2-4c88-824e-6528ca9c3527" class="user-hover" rel="712020:63e6064d-2dd2-4c88-824e-6528ca9c3527" data-account-id="712020:63e6064d-2dd2-4c88-824e-6528ca9c3527" accountid="712020:63e6064d-2dd2-4c88-824e-6528ca9c3527" rel="noreferrer">Sujitha Sujitha (Contractor)</a> </p>
+        </td></tr>
+                <tr id="comment-header-1748117"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                id="word_commented_712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17">
+                    Christine Clowser
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/10/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1748117"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3" class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3" data-account-id="712020:c5672abc-47de-4d3b-b75c-674d899548f3" accountid="712020:c5672abc-47de-4d3b-b75c-674d899548f3" rel="noreferrer">neha.dhilor@zurich.com</a> As noted in Teams, I’m getting an error on the Coverage Extension screen.  When I put $0 in for any of the limits (because we are not going to cover that extension), I get an error message - see below.  I cannot move past this screen so cannot test items further past this screen.</p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1526215" alt="image-20260710-171151.png" width="1126" style="border: 0px solid black" /></span></p>
+
+<p>Error message I get:</p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1526216" alt="image-20260710-171218.png" width="1126" style="border: 0px solid black" /></span></p>
+        </td></tr>
+                <tr id="comment-header-1748566"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="638ed40c3c26ca7fa0d6b003"
+                id="word_commented_638ed40c3c26ca7fa0d6b003"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003">
+                    Rashmi Banapura
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/13/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1748566"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17" class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" data-account-id="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" accountid="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" rel="noreferrer">Christine Clowser</a> Do I need to consider below two coverages for mandatory fields or not? Now I included below check to go to next screen that’s the reason you are unable to proceed further.</p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1526605" alt="image-20260713-064620.png" width="599" style="border: 0px solid black" /></span></p>
+
+<p>FYI: <a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3" class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3" data-account-id="712020:c5672abc-47de-4d3b-b75c-674d899548f3" accountid="712020:c5672abc-47de-4d3b-b75c-674d899548f3" rel="noreferrer">neha.dhilor@zurich.com</a> </p>
+        </td></tr>
+                <tr id="comment-header-1749836"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                id="word_commented_712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17">
+                    Christine Clowser
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/13/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1749836"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003" class="user-hover" rel="638ed40c3c26ca7fa0d6b003" data-account-id="638ed40c3c26ca7fa0d6b003" accountid="638ed40c3c26ca7fa0d6b003" rel="noreferrer">Rashmi Banapura</a> No, these should not be mandatory fields. </p>
+
+<p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3" class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3" data-account-id="712020:c5672abc-47de-4d3b-b75c-674d899548f3" accountid="712020:c5672abc-47de-4d3b-b75c-674d899548f3" rel="noreferrer">neha.dhilor@zurich.com</a> </p>
+        </td></tr>
+                <tr id="comment-header-1750140"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="638ed40c3c26ca7fa0d6b003"
+                id="word_commented_638ed40c3c26ca7fa0d6b003"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003">
+                    Rashmi Banapura
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/14/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1750140"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17" class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" data-account-id="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" accountid="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" rel="noreferrer">Christine Clowser</a> I made the changes, please continue your testing now <a href="https://ezdocs-bau.zurichcanada.com/login-with-sso.html" class="external-link" rel="nofollow noreferrer">Login</a></p>
+        </td></tr>
+                <tr id="comment-header-1754862"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                id="word_commented_712020:e7f97e64-9a80-4599-afa7-3a5624f3db17"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17">
+                    Christine Clowser
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/17/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1754862"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003" class="user-hover" rel="638ed40c3c26ca7fa0d6b003" data-account-id="638ed40c3c26ca7fa0d6b003" accountid="638ed40c3c26ca7fa0d6b003" rel="noreferrer">Rashmi Banapura</a> <a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac5672abc-47de-4d3b-b75c-674d899548f3" class="user-hover" rel="712020:c5672abc-47de-4d3b-b75c-674d899548f3" data-account-id="712020:c5672abc-47de-4d3b-b75c-674d899548f3" accountid="712020:c5672abc-47de-4d3b-b75c-674d899548f3" rel="noreferrer">neha.dhilor@zurich.com</a> </p>
+
+<ol>
+	<li>Named Insured is still not pulling from the info entered in ezdocs.  It’s pulling from UWD seemingly.  It should pull from the info input in ezdocs<br/>
+<span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1531684" alt="image-20260717-144347.png" width="564" style="border: 0px solid black" /></span></li>
+	<li>Soft Costs in the Delay in Completion Endst ZC 6538 - Additional Interest and Financing Expense - When Soft costs has a limit, it opens a limit field up in the endst to be completed for Add’l Intereste.  If you do not fill it in, the quote page shows Add’l Interest as “Not Insured” which is incorrect.  If a Soft Cost limit is entered on ZC6538, the Additional Interest and Finance Expense limit should automatically shows as “Included in Soft Costs Limit”  (that’s what ezdocs currently does with the BRPT upload also.)<br/>
+<span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1531685" alt="image-20260717-144859.png" width="957" style="border: 0px solid black" /></span></li>
+	<li><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1531686" alt="image-20260717-145031.png" width="750" style="border: 0px solid black" /></span></li>
+</ol>
+
+        </td></tr>
+                <tr id="comment-header-1755650"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="638ed40c3c26ca7fa0d6b003"
+                id="word_commented_638ed40c3c26ca7fa0d6b003"
+                href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=638ed40c3c26ca7fa0d6b003">
+                    Rashmi Banapura
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/20/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1755650"><td bgcolor="#ffffff">
+            <p><a href="https://jira-zurichna.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae7f97e64-9a80-4599-afa7-3a5624f3db17" class="user-hover" rel="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" data-account-id="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" accountid="712020:e7f97e64-9a80-4599-afa7-3a5624f3db17" rel="noreferrer">Christine Clowser</a> May I know what to print when below two coverages' limits are either empty or 0?</p>
+
+<p><span class="image-wrap" style=""><img src="https://jira-zurichna.atlassian.net/rest/api/3/attachment/content/1532253" alt="image-20260720-070436.png" width="599" style="border: 0px solid black" /></span></p>
+        </td></tr>
+            </table>
+Generated at Tue Jul 28 04:55:13 UTC 2026 by Swetha Deshpande (Contractor) using Jira 1001.0.0-SNAPSHOT#100293-rev:997e18f88042fe883e92e5e8bd1152a5564b7efe.
+
+</body>
+</html>
